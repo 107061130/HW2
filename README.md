@@ -34,7 +34,7 @@ while(1) {
 }
 ```
 
-## Generate triangle wave and store it
+## Generate triangle wave and store 1 second ADC data
 ```
 float a1, a2;
 a1 = (1.0f  / (sample * 0.9f)) * f;
