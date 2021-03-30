@@ -60,7 +60,7 @@ while(1) {
 ```
 ![](https://i.imgur.com/enWeiqx.png)
 
-## Use Thread to output result when press user_button
+## Use Thread to output ADC data when press user_button
 ```
 t.start(callback(&queue, &EventQueue::dispatch_forever)); // Build an eventqueue for the multiple task 
 sw3.rise(queue.event(Print_ADC));
