@@ -30,7 +30,6 @@ int main(){
         else if (B3 == 1){
             break;
         }
-        uLCD.color(BLUE);  
         uLCD.background_color(WHITE);
         uLCD.textbackground_color(WHITE);
         uLCD.cls();
