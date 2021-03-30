@@ -34,12 +34,11 @@ int main(){
         uLCD.background_color(WHITE);
         uLCD.textbackground_color(WHITE);
         uLCD.cls();
-        // basic printf demo = 16 by 18 characters on screen
         uLCD.locate(1, 1);
-        uLCD.text_width(4); //4X size text
+        uLCD.text_width(4); 
         uLCD.text_height(4);
         uLCD.color(GREEN);
-        uLCD.printf("\n%d\n", f); //Default Green on black text
+        uLCD.printf("\n%d\n", f); 
    }
 
     float a1, a2;
